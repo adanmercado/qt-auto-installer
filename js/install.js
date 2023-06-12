@@ -1,3 +1,8 @@
+/********************************************************************************************
+ *                     Author: Adán Mercado <adanmercado.dev@gmail.com>                     *
+ *                     Github: https://github.com/adanmercado                               *
+ ********************************************************************************************/
+
 let CLICK_DELAY = 2000;
 
 function Controller() {
