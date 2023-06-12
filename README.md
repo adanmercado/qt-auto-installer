@@ -15,7 +15,7 @@ This project allows you to perform an automated installation of the Qt framework
 - Run the **install-qt** script according to your platform:
     - macos/install-qt.sh for macos.
     - win/install-qt.bat for windows.
-    - linux/install-qt.sh for windows.
+    - linux/install-qt.sh for linux.
 
 
 ## Examples
