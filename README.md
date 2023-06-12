@@ -55,7 +55,7 @@ const COMPONENTS = [
     'qt.tools.ninja'
 ];
 
-const QT_INSTALLATION_DIR = 'C:\Qt'
+const QT_INSTALLATION_DIR = 'C:\\Qt'
 const RUN_QT_CREATOR = false;
 ```
 ```
