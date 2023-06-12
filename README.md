@@ -2,12 +2,21 @@
 
 This project allows you to perform an automated installation of the Qt framework using the Qt online installer.
 
+## Dependencies
+### macos and linux
+- wget
+
+### windows
+- curl
+
+
 ## How to use
 - Create a **config.js** file in **js** folder. Accepted configuration variables are provided in the **config.js.template** file.
-- Run the install-qt script according to your platform:
+- Run the **install-qt** script according to your platform:
     - macos/install-qt.sh for macos.
     - win/install-qt.sh for windows.
     - linux/install-qt.sh for windows.
+
 
 ## Examples
 Here is an example for the installation of **Qt 5.15.2**.
@@ -50,7 +59,7 @@ const QT_INSTALLATION_DIR = 'C:\Qt'
 const RUN_QT_CREATOR = false;
 ```
 ```
-C:\%userprofile%> win/install-qt.bat
+C:\%userprofile%> win\install-qt.bat
 ```
 
 ### linux
@@ -71,5 +80,5 @@ const QT_INSTALLATION_DIR = installer.value('HomeDir') + '/Qt'
 const RUN_QT_CREATOR = false;
 ```
 ```
-$ linux/install-qt.sh
+$ ./linux/install-qt.sh
 ```
