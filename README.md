@@ -14,7 +14,7 @@ This project allows you to perform an automated installation of the Qt framework
 - Create a **config.js** file in **js** folder. Accepted configuration variables are provided in the **config.js.template** file.
 - Run the **install-qt** script according to your platform:
     - macos/install-qt.sh for macos.
-    - win/install-qt.sh for windows.
+    - win/install-qt.bat for windows.
     - linux/install-qt.sh for windows.
 
 
