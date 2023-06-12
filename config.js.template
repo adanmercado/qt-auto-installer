@@ -1,0 +1,16 @@
+/********************************************************************************************
+ *                     Author: Adán Mercado <adanmercado.dev@gmail.com>                     *
+ *                     Github: https://github.com/adanmercado                               *
+ ********************************************************************************************/
+
+const QT_ACCOUNT_USERNAME = 'your_qt_account';
+const QT_ACCOUNT_PASSWORD = 'yout_qt_account_password';
+
+// Components to install
+const COMPONENTS = [
+];
+
+const QT_INSTALLATION_DIR = 'qt_install_path';
+
+// Run Qt Creator when installation is finished.
+const RUN_QT_CREATOR = true;
