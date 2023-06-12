@@ -101,3 +101,7 @@ Controller.prototype.DynamicTelemetryPluginFormCallback = function() {
 
     gui.clickButton(buttons.NextButton, CLICK_DELAY);
 }
+
+Controller.prototype.StartMenuDirectoryPageCallback = function() {
+    gui.clickButton(buttons.NextButton);
+}
